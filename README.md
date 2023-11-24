@@ -13,14 +13,7 @@
 
 ### Leaderboard Submission
 
-You can submit your model results in [AutoEval-Video Leaderboard]() now. You can choose either to use your own API key in conjunction with our provided offline evaluation script for assessment and upload the evaluation results (the preferred method), or simply upload your model's output for automatic evaluation by the leaderboard (which may be more time-consuming). After submitting, please press refresh button to get the latest results.
-
-
-## Data Preparation
-
-You can download the raw video and annotation of AutoEval-Video released on [AutoEval-Video Project Page](https://github.com/Xiuyuan-Chen/AutoEval-Video).
-If you want to replicate some experiments of the baseline models, please refer to the official repo for more details about data preprocessing.
-
+You can submit your model results in [AutoEval-Video Leaderboard]() now. If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
 
 ## Offline Evaluation
 
@@ -38,8 +31,7 @@ AutoEval-Video is released under Apache License Version 2.0.
 
 
 ## Declaration
-For the videos of AutoEval-Video, we use the data from YOUTUBE (https://www.youtube.com), following Creative Commons License (https://support.google.com/youtube/answer/2797468).
-
+All videos of AutoEval-Video are collected from YouTube(https://www.youtube.com), following the Creative Commons License (https://support.google.com/youtube/answer/2797468).
 
 <!-- ## Citation
 If you find AutoEval-Video useful for your research and applications, please cite using this BibTeX:
