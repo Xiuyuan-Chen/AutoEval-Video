@@ -8,7 +8,7 @@ from openai import OpenAI
 
 def get_response(prompt: str, ak: str) -> str:
     '''
-    prompt: 
+    This is an example reference function for invoking GPT-4. Please modify it according to the actual circumstances.
     '''
     client = OpenAI(api_key=ak)
 
