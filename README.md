@@ -2,7 +2,7 @@
 [Paper](), [Project Page](https://github.com/Xiuyuan-Chen/AutoEval-Video), [Leaderboard]()
 
 <p align="center">
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video-try/blob/main/overview.png" />
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/overview.png" />
 </p>
  
   AutoEval-Video comprises 327 complex open-ended video-question instances that span across nine skill dimensions, which address video-specific perception, comprehension, and generation skills. Please refer to our [paper]() for more details.
