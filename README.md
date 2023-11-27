@@ -12,7 +12,7 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 
 Please refer to our [paper]() for more details about AutoEval-Video.
 ## News
-<!-- **[2023.11.25]** [AutoEval-Video Leaderboard]() is released! You can now utilize GPT-4 to automatically evaluate your own model. -->
+**[2023.11.25]** [AutoEval-Video Leaderboard]() is released! You can now evaluate the ranking of your model on the leaderboard.
 
 **[2023.11.25]** AutoEval-Video is released! Data and evaluation code is available now.
 

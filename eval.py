@@ -94,6 +94,9 @@ def main():
 
     assert len(dimension_correct) == 9
 
+    if total_lines != count_lines(gt_file_path):
+        print("The number of prediction lines is not equal to the number of ground truth lines, which may cause error.")
+
     with open(file_path, 'r') as f:
         for line in tqdm(f, total=total_lines, unit="lines"):
             data = json.loads(line.strip())
