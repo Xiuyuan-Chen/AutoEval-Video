@@ -5,13 +5,18 @@
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/overview.png" />
 </p>
  
-  AutoEval-Video comprises 327 complex open-ended video-question instances that span across nine skill dimensions, which address video-specific perception, comprehension, and generation skills. Please refer to our [paper]() for more details.
+AutoEval-Video is a comprehensive and challenging benchmark to assess the capabilities of large vision-language models. The highlights of AutoEval-Video include:
+- AutoEval-Video constructs open-ended video-questions across 9 skill dimensions, addressing capabilities of perception, comprehension, and generation.
+- AutoEval-Video contains newly collected videos from YouTube that cover over 40 distinct themes.
+- Unique evaluation rules are annotated for every instance in AutoEval-Video, enabling accurate assessments by an LLM-based automatic evaluator.
+
+Please refer to our [paper]() for more details about AutoEval-Video.
 ## News
-**[2023.11.25]** [AutoEval-Video Leaderboard]() is released! You can now utilize GPT-4 to automatically evaluate your own model.
+<!-- **[2023.11.25]** [AutoEval-Video Leaderboard]() is released! You can now utilize GPT-4 to automatically evaluate your own model. -->
 
 **[2023.11.25]** AutoEval-Video is released! Data and evaluation code is available now.
 
-### Leaderboard Submission
+## Leaderboard Submission
 
 You can submit your model results in [AutoEval-Video Leaderboard]() now. If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
 
