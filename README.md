@@ -10,13 +10,21 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
   <br>
-  <em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em>
+  <b><em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em></b>
 </p>
-
+<br>
+<br>
 <p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
   <br>
-  <em>Examples of AutoEval-Video.</em>
+  <b><em>Examples of AutoEval-Video.</em></b>
+</p>
+<br>
+<br>
+<p align="center">
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/task_pie.png"/>
+  <br>
+  <b><em>Distribution of questions in AutoEval-Video across the nine skill dimensions.</em></b>
 </p>
 
 Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details about AutoEval-Video.
