@@ -11,13 +11,14 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
 </p>
 <br> -->
+<br>
 <p align="center">
   <b><em>Example Instance and Automatic Evaluation Process in AutoEval-Video.</em></b>
 </p>
-<br>
 <p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
+<br>
 <p align="center" style="font-size:50px;">
   <b><em>Statistics of AutoEval-Video.</em></b>
 </p>
@@ -40,11 +41,11 @@ Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details a
 
 ## Leaderboard Submission
 
-Welcome to submit your model results to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard). If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
+Welcome to submit your model results to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard). Please ensure your model results are prepared in JSON format, similar to [prediction_sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/prediction_sample.json).
 
 ## Run Evaluation
 
-Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/eval.py), to generate output.json, which contains your model's evaluation results. Please ensure your model results are prepared in JSON format, similar to [sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/sample.json). Execute the following evaluation script:
+Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/eval.py), to generate output.json, which contains your model's evaluation results. Please ensure your model results are prepared in JSON format, similar to [prediction_sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/prediction_sample.json). Execute the following evaluation script:
 
 ```shell
 python3 eval.py --rule_path AutoEval-Video.json --pre_path <path_to_your_model_output> --output_dir ./results --ak <your_api_key>
