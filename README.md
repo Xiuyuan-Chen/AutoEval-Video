@@ -1,5 +1,6 @@
 # AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering
-[Paper](https://arxiv.org/abs/2311.14906), [Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard)
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2311.14906-blue)](https://arxiv.org/abs/2311.14906)
+[![Leaderboard](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard)
 
 AutoEval-Video is a comprehensive and challenging benchmark to assess the capabilities of large vision-language models. The highlights of AutoEval-Video include:
 - AutoEval-Video constructs open-ended video-questions across 9 skill dimensions, addressing capabilities of perception, comprehension, and generation.
@@ -59,8 +60,13 @@ AutoEval-Video is released under Apache License Version 2.0.
 ## Declaration
 All videos of AutoEval-Video are collected from YouTube(https://www.youtube.com), following the Creative Commons License (https://support.google.com/youtube/answer/2797468).
 
-<!-- ## Citation
+## Citation
 If you find AutoEval-Video useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-
-``` -->
+@article{chen2023autoevalvideo,
+      title={AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering}, 
+      author={Xiuyuan Chen and Yuan Lin and Yuchen Zhang and Weiran Huang},
+      year={2023},
+      journal={arXiv preprint arXiv:2311.14906}
+}
+```
