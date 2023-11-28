@@ -10,17 +10,14 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
 </p>
 <br>
-<br>
 <p align="center">
   <b><em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em></b>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
 <br>
-<br>
 <p align="center">
   <b><em>Statistics of AutoEval-Video.</em></b>
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/sunburst_chart.png"/>
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/task_pie.png"/>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/distribution.png"/>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics_table.png"/>
 </p>
 
