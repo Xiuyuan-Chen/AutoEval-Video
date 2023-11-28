@@ -1,5 +1,5 @@
 # AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering
-[Paper](https://arxiv.org/abs/2311.14906), [Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard/tree/main)
+[Paper](https://arxiv.org/abs/2311.14906), [Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard)
 
 AutoEval-Video is a comprehensive and challenging benchmark to assess the capabilities of large vision-language models. The highlights of AutoEval-Video include:
 - AutoEval-Video constructs open-ended video-questions across 9 skill dimensions, addressing capabilities of perception, comprehension, and generation.
@@ -12,6 +12,7 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <br>
 <p align="center">
   <b><em>Automatic Evaluation Process in AutoEval-Video.</em></b>
+  <br>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
 <p align="center">
@@ -22,13 +23,13 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 
 Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details about AutoEval-Video.
 ## News
-<!-- **[2023.11.28]** [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard/tree/main) is released! Welcome to submit your model's results. -->
+**[2023.11.28]** [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard) is released! Welcome to submit your model's results.
 
 **[2023.11.25]** AutoEval-Video is released! Data and evaluation code is available now.
 
 ## Leaderboard Submission
 
-Welcome to submit your model results to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard/tree/main). If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
+Welcome to submit your model results to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard). If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
 
 ## Run Evaluation
 
