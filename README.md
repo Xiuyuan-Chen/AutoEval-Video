@@ -12,7 +12,9 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <br> -->
 <p align="center">
   <b><em>Example Instance and Automatic Evaluation Process in AutoEval-Video.</em></b>
-  <br>
+</p>
+<br>
+<p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
 <p align="center" style="font-size:50px;">
@@ -22,7 +24,6 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
   <em> (a) The distribution of the skill dimensions and the video themes in AutoEval-Video.</em>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/distribution.png"/>
 </p>
-<br>
 <p align="center">
   <em> (b) Statistical information of the video and annotations.</em>
 </p>
