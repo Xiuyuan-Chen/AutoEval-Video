@@ -22,9 +22,9 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/task_pie.png"/>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics.png"/>
   <br>
-  <b><em>Distribution of questions in AutoEval-Video across the nine skill dimensions.</em></b>
+  <b><em>Statistics of AutoEval-Video. (a) Genre distribution of videos. (b) Statistics on question and rules lengths, number of scenes, and video duration.</em></b>
 </p>
 
 Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details about AutoEval-Video.
