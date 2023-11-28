@@ -6,25 +6,26 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 - AutoEval-Video contains newly collected videos from YouTube that cover over 40 distinct themes.
 - Unique evaluation rules are annotated for every instance in AutoEval-Video, enabling accurate assessments by an LLM-based automatic evaluator.
 
-
 <p align="center">
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
-  <br>
-  <b><em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em></b>
-</p>
-<br>
-<br>
-<p align="center">
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
   <br>
   <b><em>Examples of AutoEval-Video.</em></b>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
 </p>
 <br>
 <br>
 <p align="center">
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics.png"/>
+  <b><em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em></b>
+  <br>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
+</p>
+<br>
+<br>
+<p align="center">
   <br>
   <b><em>Statistics of AutoEval-Video. (a) Genre distribution of videos. (b) Statistics on question and rules lengths, number of scenes, and video duration.</em></b>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/sunburst_chart.png"/>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/task_pie.png"/>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/sunburst_chart.png"/>
 </p>
 
 Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details about AutoEval-Video.
@@ -37,15 +38,15 @@ Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details a
 
 Welcome to submit your model results to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard/tree/main). If you discover a case where our rules have resulted in inaccurate evaluation, feel free to raise an issue here to inform us. Any changes in the rules will be reactivated on the leaderboard.
 
-## Offline Evaluation
+## Run Evaluation
 
-The evaluation script is provided in [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/eval.py). In order to conform to the script input format, you need to format your model output as JSON format, like [sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/sample.json). You can use the evaluation script as follows:
+Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/eval.py), to generate output.json, which contains your model's evaluation results. Please ensure your model results are prepared in JSON format, similar to [sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/sample.json). Execute the following evaluation script:
 
 ```shell
 python3 eval.py --rule_path AutoEval-Video.json --pre_path <path_to_your_model_output> --output_dir ./results --ak <your_api_key>
 ```
 
-After the evaluation is finished, you can obtain the accuracy of each evaluation dimension in 'acc.txt' and also 'output.json' in 'results' folder. And, 'output.json' can be directly submitted to [AutoEval-Video Leaderboard](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard/tree/main).
+The output.json file contains the accuracy of each instance, while the acc.txt file documents the overall accuracy score. If you discover that any evaluation rules are not comprehensive, please feel free to submit an issue to us. We will refine the rules if there are identified problems. Additionally, the results on the leaderboard will be updated to reflect these changes.
 
 
 ## License
