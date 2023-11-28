@@ -1,5 +1,5 @@
 # AutoEval-Video: An Automatic Benchmark for Assessing Large Vision Language Models in Open-Ended Video Question Answering
-[![Paper](https://img.shields.io/badge/Paper-arxiv.2311.14906-blue)](https://arxiv.org/abs/2311.14906)
+[![Paper](https://img.shields.io/badge/Paper-arxiv.2311.14906-green)](https://arxiv.org/abs/2311.14906)
 [![Leaderboard](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/khhuiyh/AutoEval-Video_LeaderBoard)
 
 AutoEval-Video is a comprehensive and challenging benchmark to assess the capabilities of large vision-language models. The highlights of AutoEval-Video include:
