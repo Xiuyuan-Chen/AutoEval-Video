@@ -15,16 +15,16 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
   <br>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
-<p align="center">
+<p align="center" style="font-size:50px;">
   <b><em>Statistics of AutoEval-Video.</em></b>
 </p>
 <p align="center">
-  <em> The distribution of the skill dimensions and the video themes in AutoEval-Video.</em>
+  <em> (a) The distribution of the skill dimensions and the video themes in AutoEval-Video.</em>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/distribution.png"/>
 </p>
 <br>
-<p align="center" style="font-size:20px;">
-  <em> Statistical information of the video and annotations.</em>
+<p align="center">
+  <em> (b) Statistical information of the video and annotations.</em>
 </p>
 <p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics_table.png"/>
