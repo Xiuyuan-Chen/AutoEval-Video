@@ -25,6 +25,8 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <br>
 <p align="center">
   <em> Statistical information of the video and annotations.</em>
+</p>
+<p align="center">
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics_table.png"/>
 </p>
 
