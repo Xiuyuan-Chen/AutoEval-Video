@@ -5,9 +5,7 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 - AutoEval-Video constructs open-ended video-questions across 9 skill dimensions, addressing capabilities of perception, comprehension, and generation.
 - AutoEval-Video contains newly collected videos from YouTube that cover over 40 distinct themes.
 - Unique evaluation rules are annotated for every instance in AutoEval-Video, enabling accurate assessments by an LLM-based automatic evaluator.
-
 <p align="center">
-  <br>
   <b><em>Examples of AutoEval-Video.</em></b>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/cases.png"/>
 </p>
@@ -15,17 +13,15 @@ AutoEval-Video is a comprehensive and challenging benchmark to assess the capabi
 <br>
 <p align="center">
   <b><em>Example Instance in AutoEval-Video and Automatic Evaluation Process. Each instance consists of three components: video, question, and rules. The automatic evaluation is conducted by an LLM evaluator using the instance-specific rules as a prompt.</em></b>
-  <br>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/overview.png"/>
 </p>
 <br>
 <br>
 <p align="center">
-  <br>
-  <b><em>Statistics of AutoEval-Video. (a) Genre distribution of videos. (b) Statistics on question and rules lengths, number of scenes, and video duration.</em></b>
+  <b><em>Statistics of AutoEval-Video.</em></b>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/sunburst_chart.png"/>
   <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/task_pie.png"/>
-  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/sunburst_chart.png"/>
+  <img src="https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/figs/statistics_table.png"/>
 </p>
 
 Please refer to our [paper](https://arxiv.org/abs/2311.14906) for more details about AutoEval-Video.
