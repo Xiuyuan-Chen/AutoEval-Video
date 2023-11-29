@@ -51,7 +51,9 @@ Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-
 python3 eval.py --rule_path AutoEval-Video.json --pre_path <path_to_your_model_output> --output_dir ./results --ak <your_api_key>
 ```
 
-The output.json file contains the accuracy of each instance, while the acc.txt file documents the overall accuracy score. If you discover that any evaluation rules are not comprehensive, please feel free to submit an issue to us. We will refine the rules if there are identified problems. Additionally, the results on the leaderboard will be updated to reflect these changes.
+The output.json file contains the accuracy of each instance, while the acc.txt file documents the overall accuracy score. 
+
+If you discover that any evaluation rules are not comprehensive, please feel free to submit an issue to us. We will refine the rules if there are identified problems. Additionally, the results on the leaderboard will be updated to reflect these changes.
 
 
 ## License
