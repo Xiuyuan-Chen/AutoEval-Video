@@ -61,7 +61,7 @@ AutoEval-Video is released under Apache License Version 2.0.
 
 
 ## Declaration
-All videos of AutoEval-Video are collected from YouTube(https://www.youtube.com), following the Creative Commons License (https://support.google.com/youtube/answer/2797468).
+All videos of AutoEval-Video are collected from YouTube (https://www.youtube.com), following the Creative Commons License (https://support.google.com/youtube/answer/2797468).
 
 ## Citation
 If you find AutoEval-Video useful for your research and applications, please cite using this BibTeX:
