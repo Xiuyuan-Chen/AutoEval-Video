@@ -45,7 +45,7 @@ Welcome to submit your model results to [AutoEval-Video Leaderboard](https://hug
 
 ## Run Evaluation
 
-Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/eval.py), to generate output.json, which contains your model's evaluation results. Please ensure your model results are prepared in JSON format, similar to [prediction_sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/prediction_sample.json). Execute the following evaluation script:
+Utilize our evaluation code, [eval.py](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/eval.py), to generate output.json, which contains your model's evaluation results. Please ensure your model results are prepared in JSON format, similar to [prediction_sample.json](https://github.com/Xiuyuan-Chen/AutoEval-Video/blob/main/prediction_sample.json). Execute the following evaluation script:
 
 ```shell
 python3 eval.py --rule_path AutoEval-Video.json --pre_path <path_to_your_model_output> --output_dir ./results --ak <your_api_key>
