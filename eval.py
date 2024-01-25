@@ -119,8 +119,6 @@ def main():
                 dimension_total[dimension] += 1
             else:
                 print(f"Instance {id_num} judge failed.")
-            if len(output) > 10:
-                break
         f.close()
 
     acclines = [f"Overall Accuracy: {round(sum(overall_acc) / max(len(overall_acc), 1) * 100, 1)}%"] + [f"{k}: {round(v / max(1, dimension_total[k]) * 100, 1)}%" for k, v in dimension_correct.items()]
